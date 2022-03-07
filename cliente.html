@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logos/favicon.png" type="image/x-icon">
+    <title>Cliente</title>
+</head>
+<body>
+    <header>
+        <img src="img/logos/logo-wt-bg.png" alt="Logo de la empresa">
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Ubicacion</a></li>
+                <li><a href="#">Contactanos</a></li>
+                <li><a href="#">Perfil</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <h1>Pasteleria's Backery</h1>
+        <div>
+            <div>
+                <p>Sabores</p>
+            </div>
+            <div>
+                <div>
+                    <img src="img/sabores/chocolate.jpg" alt="Chocolates referenciando al sabor chocolate.">
+                    <p>Chocolate</p>
+                    <p>Precio: $100.00</p>
+                </div>
+                <div>
+                    <img src="img/sabores/fresa.jpg" alt="Un helado de fresa referenciando al sabor.">
+                    <p>Fresa</p>
+                    <p>Precio: $100.00</p>
+                </div>
+                <div>
+                    <img src="img/sabores/menta.jpg" alt="Un helado de menta referenciando al sabor.">
+                    <p>Menta</p>
+                    <p>Precio: $150.00</p>
+                </div>
+                <div>
+                    <img src="img/sabores/vainilla.jpg" alt="Un helado de vainilla referenciando al sabor.">
+                    <p>Vainilla</p>
+                    <p>Precio: $100.00</p>
+                </div>
+                <div>
+                    <img src="img/sabores/zarzamora.jpg" alt="Un helado de zarzamora referenciando al sabor.">
+                    <p>Zarzamora</p>
+                    <p>Precio: $100.00</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div>
+                <div>
+                    <p>Adornos</p>
+                </div>
+                <div>
+                    <img src="img/adornos/chispas_chocolate.jpg" alt="Una imagen de chispas de chocolate.">
+                    <p>Chispas de chocolate</p>
+                    <p>Precio: $50.00</p>
+                </div>
+                <div>
+                    <img src="img/adornos/chocoretas.jpg" alt="Una imagen de chocoretas.">
+                    <p>Chocoretas</p>
+                    <p>Precio: $80.00</p>
+                </div>
+                <div>
+                    <img src="img/adornos/ositos_goma.jpg" alt="Una imagen de ositos de goma.">
+                    <p>Ositos de goma</p>
+                    <p>Precio: $80.00</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <form action="" method="post">
+                <fieldset>
+                    <legend>Pedido</legend>
+                    <div>
+                        <label for="name_user">Nombre:</label>
+                        <input id="name_user" name="name_user" type="text">
+                    </div>
+                    <div>
+                        <label for="phone_number">Teléfono:</label>
+                        <input type="tel" name="phone_number" id="phone_number">
+                    </div>
+                    <div>
+                        <label for="user_email">Correo electrónico:</label>
+                        <input type="email" name="user_email" id="user_email">
+                    </div>
+                    <div>
+                        <label for="description">Descipcion general del pastel:</label>
+                        <textarea name="description" id="description" cols="30" rows="5"></textarea>
+                    </div>
+                    <div>
+                        <label for="flavours">Sabores:</label>
+                        <div>
+                            <input type="checkbox" name="chocolate" id="chocolate">
+                            <label for="chocolate">Chocolate</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="fresa" id="fresa">
+                            <label for="fresa">Fresa</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="menta" id="menta">
+                            <label for="menta">Menta</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="Vainilla" id="Vainilla">
+                            <label for="Vainilla">Vainilla</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="Zarzamora" id="Zarzamora">
+                            <label for="Zarzamora">Zarzamora</label>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="adornos">Adornos:</label>
+                        <div>
+                            <input type="checkbox" name="chispas_chocolate" id="chispas_chocolate">
+                            <label for="chispas_chocolate">Chispas de chocolate</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="Chocoretas" id="Chocoretas">
+                            <label for="Chocoretas">Chocoretas</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="Ositos_Goma" id="Ositos_Goma">
+                            <label for="Ositos_Goma">Ositos de goma</label>
+                        </div>
+                    </div>
+                    <div>
+                        <input type="submit" value="Enviar">
+                    </div>
+                    <div>
+                        <input type="reset" value="Borrar">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <div>
+                <p>Direccion:</p>
+                <p>Av. Patria 2974-C, Colli Urbano, 45070 Zapopan, Jal.</p>
+            </div>
+            <div>
+                <p>Telefono:</p>
+                <p>+52 3313552839</p>
+            </div>
+            <div>
+                <p>Horarios de atención:</p>
+                <p>09:00am-11:00pm</p>
+            </div>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34015.014964123046!2d-103.43790728346973!3d20.6417314202065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ac38fd80ec45%3A0x31f8e86d8d208c1!2sPasteler%C3%ADas%20Marisa!5e0!3m2!1sen!2smx!4v1646610239017!5m2!1sen!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </footer>
+</body>
+</html>
